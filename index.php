@@ -50,13 +50,15 @@
 </head>
 <body>
     <h2>Calculate 3x + 1 Function</h2>
-    <form action="index.php" method="post">
-        <label for="start">Start Number:</label>
-        <input type="number" id="start" name="start">
-        <label for="end">End Number:</label>
-        <input type="number" id="end" name="end">
-        <button type="submit">Calculate</button>
-    </form>
+
+<form action="index.php" method="post">
+    <label for="start">Starting Number:</label>
+    <input type="number" id="start" name="start">
+    <label for="end">Ending Number:</label>
+    <input type="number" id="end" name="end">
+    <button type="submit">Perform Calculation</button>
+</form>
+
 
     <?php
     require_once 'ExtendedCalculator.php';
@@ -106,3 +108,4 @@
     ?>
 </body>
 </html>
+
